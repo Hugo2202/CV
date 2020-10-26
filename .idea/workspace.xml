@@ -35,6 +35,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\CV" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,7 +58,7 @@
       <workItem from="1603089246887" duration="19000" />
       <workItem from="1603176505825" duration="2888000" />
       <workItem from="1603269072725" duration="20155000" />
-      <workItem from="1603465084764" duration="2638000" />
+      <workItem from="1603465084764" duration="9098000" />
     </task>
     <servers />
   </component>
