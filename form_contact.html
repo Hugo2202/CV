@@ -14,24 +14,27 @@
 
 <div class="container form_title_n_contenu">
     <h1>Formulaire de contact</h1>
-    <form action="#" method="post" class="form_contenu">
+    <form action="redirect_form.php" method="post" class="form_contenu">
         <fieldset>
             <div class="form-group">
                 <label for="nom">Nom : </label>
-                <input type="text" class="form-control" id="nom" placeholder="Entrer votre nom ici">
+                <input type="text" name="nom" class="form-control" id="nom" placeholder="Entrer votre nom ici">
             </div>
 
             <div class="form-group">
                 <label for="email">Mail :</label>
-                <input type="email" class="form-control" id="email" placeholder="Entrer votre adresse mail ici">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Entrer votre adresse mail ici">
             </div>
 
             <div class="form-group">
                 <label for="bio">Message :</label>
-                <textarea class="form-control" id="bio" rows="4" placeholder="Entrer votre message ici"></textarea>
+                <textarea class="form-control" name="message" id="bio" rows="4" placeholder="Entrer votre message ici"></textarea>
             </div>
 
+            <div class="row">
             <input type="submit" value="Envoyer" class="btn_submit_form">
+            <a href="home.html" type="button" class="btn_submit_form">Retour</a>
+            </div>
         </fieldset>
 
     </form>

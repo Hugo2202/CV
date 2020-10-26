@@ -22,7 +22,7 @@
         <span>Contactez moi !</span>
     </a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
     <div id="burger_deroulant">
         <div class="menu" id="menu{postrow.displayed.U_POST_ID}" onclick="afficheMenu(this)">
             <a href="#"><img src="img/burger.png" width="40px" alt=""> </a>
@@ -38,6 +38,14 @@
     </div>
 </div>
 
+
+
+<a href="img/ok.png">Télécharger ici !</a>
+
 <script src="burger_deroulant.js"></script>
+
+
+
 </body>
 </html>
+
