@@ -32,7 +32,7 @@ $message = $_POST['message'];
 
 </div>
 <div class="row">
-    <a href="home.html" type="button" class="btn_submit_form">Retour à la page d'accueil</a>
+    <a href="home.php" type="button" class="btn_submit_form">Retour à la page d'accueil</a>
 </div>
 
 
