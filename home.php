@@ -17,7 +17,7 @@
 
 <div class="row div_me">
     <!--PHOTO-->
-   <div class="col-12 col-sm-4 col-md-3 col-lg-3 div_me_V2 photo"><img id="photo" alt="photo_hugo" src="img/me.jpg"></div>
+   <div class="col-12 col-sm-4 col-md-3 col-lg-3 div_me_V2 photo"><img id="photo" alt="photo_hugo" src="img/me_2.jpg"></div>
 
     <!--NOM ET POSTE-->
    <div class="col-12 col-sm-8 col-md-6 col-lg-6 div_me_V2" id="poste_n_button">

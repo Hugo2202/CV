@@ -92,7 +92,7 @@ MENU DE NAVIGATION - Petits écrans
 ********************************/
 #photo{
     width: 100%;
-    filter: contrast(50%);
+    filter: contrast(80%) grayscale(100%);;
 }
 
 /********************************
