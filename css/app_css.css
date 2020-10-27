@@ -2,10 +2,22 @@ body{
     font-family : Comfortaa , "Roboto", serif;
 }
 
-.row {
-    margin-left: 0px;
-    margin-right: 0px;
+h1{
+    text-decoration:underline;
+    padding-left: 10px;
 }
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+p{
+    padding-left: 10px;
+}
+
+/********************************
+MENU DE NAVIGATION - Grans écrans
+********************************/
 nav {
     background-color: black;
     text-transform: uppercase;
@@ -16,18 +28,19 @@ nav {
     width: 100%;
     z-index: 10;
 }
-
 .div_nav a{
-    color: white;
+    color: #e5e5dc;
     display: inline-block;
     line-height: 50px;
     padding-left: 10px;
 }
-
 .div_nav a:hover{
-    color: yellow;
+    color: #c66b3d;
 }
 
+/********************************
+MENU DE NAVIGATION - Petits écrans
+********************************/
 #burger_deroulant{
     background-color: black;
     display: none;
@@ -41,7 +54,6 @@ nav {
     text-align:center;
 }
 
-
 .sousmenu{
     padding:1px 0;
     text-align: right;
@@ -49,19 +61,18 @@ nav {
 
 .sousmenu a{
     display:block;
-    color:white;
+    color:#e5e5dc;
     font-family:Roboto,sans-serif;
     font-size:20px;
 }
 
 .burger_deroulant a:hover, .sousmenu a:hover, .burger_deroulant a:active, .sousmenu a:active, .burger_deroulant a:focus, .sousmenu a:focus{
-    background:yellow;
+    background: #c66b3d;
 }
 
-h1{
-    text-decoration:underline;
-}
-
+/********************************
+       PREMIER BANDEAU
+********************************/
 .div_me{
     padding-top: 50px;
 }
@@ -72,20 +83,26 @@ h1{
     border-left-width: 3px;
     border-style: solid;
     border-color: black;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
+/********************************
+   PREMIER BANDEAU - Photo
+********************************/
 #photo{
     width: 100%;
     filter: contrast(50%);
 }
+
+/********************************
+ PREMIER BANDEAU - Poste, nom
+********************************/
 .poste_actuel, .nom{
-    color: white;
+    color: #e5e5dc;
     text-align: center;
     font-size: 30px;
 }
-
 .contact_me{
     text-align: center;
 }
@@ -93,32 +110,45 @@ h1{
     position:relative;
     text-align: center;
 }
-
 .nom{
-    color: #e0a800;
+    color: #c66b3d;
 }
 
-.div_download_pdf{
-    padding-top: 30px;
+/********************************
+ PREMIER BANDEAU - PDF
+********************************/
+.div_pdf_et_linkedin{
+    background-color: #1d2124;
+    border-width: 6px;
+    border-top-width: 0px ;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.download_pdf{
-    color: white;
-    padding-top: 30px;
+.download_pdf, .linkedin {
+    color: #e5e5dc;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.download_pdf:hover, .linkedin:hover{
+    color: #c66b3d;
 }
 
-.download_pdf:hover{
-    color: yellow;
-}
-
-
+/********************************
+            INFOS
+********************************/
 #infos_d{
     float: right;
     width: 100%;
 }
 
 .div_info_d{
-    background-color: #0f6674;
-    height: 100%;
+    background-color: #c66b3d;
     height: 100%;
 }
 
@@ -130,11 +160,10 @@ h1{
 
 .div_info_list_d{
     height: 100%;
-
 }
 
 .div_info{
-    background-color: #0f6674;
+    background-color: #b85042;
     padding-bottom: 10px;
     display: none;
 }
@@ -148,13 +177,12 @@ h1{
     text-align: center;
 }
 
-.div_formation{
-    background-color: lightsalmon;
-    color: white;
-}
 
+/********************************
+            COMPETENCES
+********************************/
 .div_competences{
-    background-color: #D8F9E3;
+    background-color: #e5e5dc;
 }
 .competance_v2{
     padding-top: 20px;
@@ -162,47 +190,59 @@ h1{
     text-align: center;
     padding-left: 30px;
 }
-
 .icon_competence{
     width: 55px;
 }
-.annee{
-    font-size: 20px;
-}
 
-.diplome, .poste{
-    font-size: 25px;
-    margin-top: 25px;
+/********************************
+   FORMATION & EXPERIENCES
+********************************/
+.div_formation{
+    background-color: #26495c;
+    color: #e5e5dc;
 }
-
 #formation_1, #formation_3, #experience_1, #experience_3, #experience_5{
     text-align: right;
 }
-
-.div_experiences{
-    background-color: rgb(255, 180, 0);
+.annee{
+    font-size: 15px;
 }
-
+.diplome, .poste{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.div_experiences{
+    background-color: #c66b3d;
+}
 .puce{
     width: 25px;
     margin-bottom: 10px;
     margin-right: 10px;
 }
 
+/********************************
+            HOBBIES
+********************************/
 .div_hobbies{
-    background-color: rgb(216, 58, 55);
+    background-color: #e5e5dc;
     padding-bottom: 30px;
 }
 .icon_hobbies_all{
     text-align: center;
 }
 .icon_hobbies{
-    width: 60px;
-    margin-left: 40px;
+    width: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+
+/********************************
+   MEDIA QUERY - ECRAN MOYEN
+********************************/
 @media screen and (max-width: 767px) {
     .infos_d{
         display: none;
@@ -210,12 +250,11 @@ h1{
     #burger_deroulant{
         display: block;
     }
-
     .div_nav{
         display: none;
     }
     .div_me{
-        padding-top: 0px;
+        padding-top: 0;
     }
     .div_info{
         display: block;
@@ -223,9 +262,11 @@ h1{
     #formation_1, #formation_3, #experience_1, #experience_3, #experience_5{
         text-align: left;
     }
-
 }
 
+/********************************
+   MEDIA QUERY - PETITS ECRANS
+********************************/
 @media screen and (min-width: 200px) and (max-width: 576px) {
     .infos_d{
         display: none;
@@ -240,12 +281,11 @@ h1{
     #burger_deroulant{
         display: block;
     }
-
     .div_nav{
         display: none;
     }
     .div_me{
-        padding-top: 0px;
+        padding-top: 0;
     }
     .div_me_V2{
         background-color: black;
@@ -256,25 +296,33 @@ h1{
     .div_info{
         display: block;
     }
+    .div_pdf_et_linkedin{
+        background-color: black;
+    }
     #formation_1, #formation_3, #experience_1, #experience_3, #experience_5{
         text-align: left;
     }
 }
 
+/********************************
+   PAGE FORMULAIRE CONTACT
+********************************/
 .form_page{
     background-color: black;
     height: 100%;
 }
-
 .form_title_n_contenu{
     background-color: white;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-right: 60px;
+    margin-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 10px;
 }
-
 .btn_submit_form{
     background-color: black;
     color: white;
@@ -284,41 +332,43 @@ h1{
     padding-left: 10px;
     padding-right: 10px;
     font-weight: bold;
-   display: block;
+    display: block;
     margin: auto;
     border-radius: 10px;
 }
-
 .btn_submit_form:hover{
     color: black;
-    background-color: yellow;
+    background-color: #c66b3d;
 }
-
 .btn_submit_form:active{
     color: black;
-    background-color: gold;
+    background-color: #26495c;
+}
+
+/********************************
+   PAGE VALIDATION MAIL
+********************************/
+.redirect_page{
+    background-color: #26495c;
 }
 
 .redirect_div{
-    background-color: #218838;
-    color: white;
+    background-color: #e5e5dc;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 60px;
+    margin-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
 }
-
 .titre_envoye{
     font-weight: bold;
     padding-left: 40px;
     padding-right: 40px;
     display: table-cell;
 }
-
 .contenu_envoye{
     display: table-cell;
 }

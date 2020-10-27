@@ -41,10 +41,10 @@ body{
 }
 
 .btn span{
-    background: rgb(255,130,130);
-    background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
-    background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
-    background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+    background: #c66b3d;
+    background: -moz-linear-gradient(left, #c66b3d 0%, #e5e5dc 100%);
+    background: -webkit-linear-gradient(left,  #c66b3d 0%,#e5e5dc 100%);
+    background: linear-gradient(to right,  #c66b3d 0%,#e5e5dc 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
 
     -webkit-background-clip: text;

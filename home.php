@@ -6,8 +6,8 @@
     <title>Home</title>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="app_css.css">
-    <link rel="stylesheet" href="button_contact.css">
+    <link rel="stylesheet" href="css/app_css.css">
+    <link rel="stylesheet" href="css/button_contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body id="top">
@@ -26,12 +26,12 @@
 
        <!--BOUTON CONTACTEZ MOI-->
        <div class="contact_me">
-           <a href="form_contact.html" class="btn">
+           <a href="html/form_contact.html" class="btn">
                <svg width="277" height="62">
                    <defs>
                        <linearGradient id="grad1">
-                           <stop offset="0%" stop-color="#FF8282"/>
-                           <stop offset="100%" stop-color="#E178ED" />
+                           <stop offset="0%" stop-color="#c66b3d"/>
+                           <stop offset="100%" stop-color="#e5e5dc" />
                        </linearGradient>
                    </defs>
                    <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
@@ -40,9 +40,8 @@
            </a>
        </div>
 
-       <!--TELECHARGER VERSION PDF-->
-       <div class="div_download_pdf"><a href="attachment/CV.pdf" target="_blank" class="download_pdf">Téléchargez la vesion PDF ICI !</a></div>
    </div>
+
 
     <!--INFOS POUR GRANDS ECRANS-->
     <div class="col-12 col-sm-12 col-md-3 col-lg-3 div_me_V2 infos_d">
@@ -69,6 +68,12 @@
     </div>
 </div>
 
+<!--TELECHARGER VERSION PDF et LINKEDIN-->
+<div class="row div_pdf_et_linkedin">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 div_download_pdf"><a href="attachment/CV_Hugo_Falourd.pdf" target="_blank" class="download_pdf">Télécharger la vesion PDF : <img src="img/download_2.png" width="25px"></a></div>
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 div_linkedin"><a href="https://www.linkedin.com/in/hugo-falourd-0a0424124/" target="_blank" class="linkedin">Lien vers Linkedin : <img src="img/linkedin.png" width="25px"></a></div>
+</div>
+
 <!--PARTIE INFOS-->
 <?php include("php/infos.php"); ?>
 
@@ -87,7 +92,7 @@
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
-<script src="burger_deroulant.js"></script>
+<script src="js/burger_deroulant.js"></script>
 </body>
 
 

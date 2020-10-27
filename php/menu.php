@@ -2,7 +2,7 @@
 <!--Barre de navigation pour grands écrans-->
 <nav>
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 div_nav">
-        <a href="#top"><img src="img/home_button.png" width="30px" alt=""></a>
+        <a href="#top"><img src="img/home_button_2.png" width="30px" alt=""></a>
         <a href="#competences">Compétences</a>
         <a href="#formation">Formation</a>
         <a href="#experience">Experiences</a>
